@@ -33,6 +33,7 @@ const ChatWindow: React.FC = () => {
             }
         } catch (err) {
             console.error("❌ Failed to fetch messages:", err);
+            
         }
     };
 
